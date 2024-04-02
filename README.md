@@ -4,7 +4,7 @@
 
 ## :loudspeaker: Latest Updates
 
-- **2023 Apr-02** : Updated our paper and released the code. You can refer to [[arXiv]](https://arxiv.org/abs/2403.11144) (new version coming soon) for more details.
+- **2024 Apr-02** : Updated our paper and released the code. You can refer to [[arXiv]](https://arxiv.org/abs/2403.11144) (new version coming soon) for more details.
 
 ## S-Mamba
 
