@@ -62,7 +62,7 @@ We are grateful for the following awesome projects when implementing S-Mamba:
 - [Mamba](https://github.com/state-spaces/mamba)
 
 ## Citation  
-If you find our work  useful in your research, please consider citing DreamLLM:
+If you find our work  useful in your research, please consider citing us:
 ```
 @article{wang2024mamba,
   title={Is Mamba Effective for Time Series Forecasting?},
