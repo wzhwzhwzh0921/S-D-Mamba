@@ -71,5 +71,3 @@ If you find our work  useful in your research, please consider citing us:
   year={2024}
 }
 ```
-
-<div align="center"><a href="https://star-history.com/#wzhwzhwzh0921/S-D-Mamba&Date"><img src="https://api.star-history.com/svg?repos=wzhwzhwzh0921/S-D-Mamba&type=Date" alt="Star History Chart" width="75%" height="auto"></img></a></div>
