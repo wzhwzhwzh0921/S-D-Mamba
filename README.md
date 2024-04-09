@@ -71,3 +71,7 @@ If you find our work  useful in your research, please consider citing us:
   year={2024}
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=wzhwzhwzh0921/S-D-Mamba&type=Date)](https://star-history.com/#wzhwzhwzh0921/S-D-Mamba&Date)
