@@ -72,4 +72,4 @@ If you find our work  useful in your research, please consider citing us:
 }
 ```
 
-<a href="https://star-history.com/#wzhwzhwzh0921/S-D-Mamba&Date"><img src="https://api.star-history.com/svg?repos=wzhwzhwzh0921/S-D-Mamba&type=Date" alt="Star History Chart" width="50%" height="auto"></img></a>
+<div align="center"><a href="https://star-history.com/#wzhwzhwzh0921/S-D-Mamba&Date"><img src="https://api.star-history.com/svg?repos=wzhwzhwzh0921/S-D-Mamba&type=Date" alt="Star History Chart" width="50%" height="auto"></img></a></div>
