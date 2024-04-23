@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ### Datasets
 
-The datasets can be obtained from [iTransformer#Usage](https://github.com/thuml/iTransformer?tab=readme-ov-file#usage).
+The datasets can be obtained from [here](https://github.com/wzhwzhwzh0921/S-D-Mamba/releases/download/datasets/S-Mamba_datasets.zip).
 
 ### Train and evaluate
 
