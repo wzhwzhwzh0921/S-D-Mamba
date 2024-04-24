@@ -1,6 +1,7 @@
-export CUDA_VISIBLE_DEVICES=3
+export CUDA_VISIBLE_DEVICES=0
 
 model_name=S_Mamba
+
 python -u run.py \
   --is_training 1 \
   --root_path ./dataset/weather/ \

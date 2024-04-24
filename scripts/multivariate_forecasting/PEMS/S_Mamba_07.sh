@@ -1,6 +1,7 @@
-export CUDA_VISIBLE_DEVICES=2
+export CUDA_VISIBLE_DEVICES=0
 
 model_name=S_Mamba
+
 python -u run.py \
   --is_training 1 \
   --root_path ./dataset/PEMS/ \
@@ -18,6 +19,7 @@ python -u run.py \
   --des 'Exp' \
   --d_model 512 \
   --d_ff 512 \
+  --batch_size 16\
   --learning_rate 0.0007 \
   --itr 1 \
   --use_norm 0

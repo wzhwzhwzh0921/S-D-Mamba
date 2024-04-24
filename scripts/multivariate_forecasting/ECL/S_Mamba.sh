@@ -1,10 +1,10 @@
-export CUDA_VISIBLE_DEVICES=2
+export CUDA_VISIBLE_DEVICES=0
 
 model_name=S_Mamba
 python -u run.py \
   --is_training 1 \
   --root_path ./dataset/electricity/ \
-  --data_path middle_electricity.csv \
+  --data_path electricity.csv \
   --model_id ECL_96_96 \
   --model $model_name \
   --data custom \
@@ -40,7 +40,6 @@ python -u run.py \
   --des 'Exp' \
   --d_model 512 \
   --d_ff 512 \
- --d_state $d_state \
   --batch_size 16 \
   --train_epochs 5 \
   --learning_rate 0.0005 \

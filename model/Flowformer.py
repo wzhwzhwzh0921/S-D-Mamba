@@ -6,7 +6,6 @@ from layers.SelfAttention_Family import FullAttention, AttentionLayer, FlowAtten
 from layers.Embed import DataEmbedding
 import numpy as np
 
-from mamba_ssm import Mamba
 class Model(nn.Module):
     """
     Vanilla Transformer
@@ -35,15 +34,8 @@ class Model(nn.Module):
         self.encoder = Encoder(
             [
                 EncoderLayer(
-                    # AttentionLayer(
-                    #     FlowAttention(attention_dropout=configs.dropout), configs.d_model, configs.n_heads),
-                    Mamba(
-                        d_model=configs.d_model,  # Model dimension d_model
-                        d_state=32,  # SSM state expansion factor
-                        d_conv=2,  # Local convolution width
-                        expand=1,  # Block expansion factor)
-                    ),
-                    1,
+                    AttentionLayer(
+                        FlowAttention(attention_dropout=configs.dropout), configs.d_model, configs.n_heads),
                     configs.d_model,
                     configs.d_ff,
                     dropout=configs.dropout,

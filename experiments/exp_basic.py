@@ -1,23 +1,39 @@
 import os
 import torch
 from model import Transformer, Informer, Reformer, Flowformer, Flashformer, \
-    iTransformer, iInformer, iReformer, iFlowformer, iFlashformer, S_Mamba
+    iTransformer, iInformer, iReformer, iFlowformer, iFlashformer, S_Mamba, \
+    Flashformer_M, Flowformer_M, Autoformer, Autoformer_M, Transformer_M, \
+    Informer_M, Reformer_M
 
 
 class Exp_Basic(object):
     def __init__(self, args):
         self.args = args
         self.model_dict = {
-            'Transformer': Transformer,
-            'Informer': Informer,
-            'Reformer': Reformer,
-            'Flowformer': Flowformer,
-            'Flashformer': Flashformer,
             'iTransformer': iTransformer,
             'iInformer': iInformer,
             'iReformer': iReformer,
             'iFlowformer': iFlowformer,
             'iFlashformer': iFlashformer,
+
+            'Transformer': Transformer,
+            'Transformer_M': Transformer_M,
+
+            'Informer': Informer,
+            'Informer_M': Informer_M,
+
+            'Reformer': Reformer,
+            'Reformer_M': Reformer_M,
+
+            'Flowformer': Flowformer,
+            'Flashformer_M': Flashformer_M,
+
+            'Flashformer': Flashformer,
+            'Flowformer_M': Flowformer_M,
+
+            'Autoformer': Autoformer,
+            'Autoformer_M': Autoformer_M,
+
             'S_Mamba': S_Mamba,
         }
         self.device = self._acquire_device()

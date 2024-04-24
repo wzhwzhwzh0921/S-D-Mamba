@@ -1,7 +1,7 @@
-export CUDA_VISIBLE_DEVICES=1
+export CUDA_VISIBLE_DEVICES=0
 
 model_name=S_Mamba
-#  d_state = 32
+# d_state = 32
 python -u run.py \
   --is_training 1 \
   --root_path ./dataset/PEMS/ \

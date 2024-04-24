@@ -1,7 +1,7 @@
-export CUDA_VISIBLE_DEVICES=2
+export CUDA_VISIBLE_DEVICES=0
 
 model_name=S_Mamba
-
+# d state 2
 python -u run.py \
   --is_training 1 \
   --root_path ./dataset/ETT-small/ \
@@ -22,6 +22,7 @@ python -u run.py \
   --d_ff 256 \
   --itr 1 \
   --learning_rate 0.00007
+
 python -u run.py \
   --is_training 1 \
   --root_path ./dataset/ETT-small/ \
@@ -42,6 +43,7 @@ python -u run.py \
   --d_ff 256 \
   --itr 1 \
   --learning_rate 0.00007
+
 python -u run.py \
   --is_training 1 \
   --root_path ./dataset/ETT-small/ \
@@ -62,6 +64,7 @@ python -u run.py \
   --d_ff 256 \
   --itr 1 \
   --learning_rate 0.00005
+
 python -u run.py \
   --is_training 1 \
   --root_path ./dataset/ETT-small/ \

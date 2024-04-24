@@ -4,7 +4,8 @@ import threading
 import torch.nn as nn
 import torch.nn.functional as F
 import torch
-
+from mamba_ssm import Mamba
+from layers.SelfAttention_Family import FullAttention, AttentionLayer
 class EncoderLayer(nn.Module):
     def __init__(self, attention, attention_r, d_model, d_ff=None, dropout=0.1, activation="relu"):
         super(EncoderLayer, self).__init__()
@@ -17,10 +18,24 @@ class EncoderLayer(nn.Module):
         self.norm2 = nn.LayerNorm(d_model)
         self.dropout = nn.Dropout(dropout)
         self.activation = F.relu if activation == "relu" else F.gelu
+        self.man = Mamba(
+            d_model=11,  # Model dimension d_model
+            d_state=16,  # SSM state expansion factor
+            d_conv=2,  # Local convolution width
+            expand=1,  # Block expansion factor)
+        )
+        self.man2 = Mamba(
+            d_model=11,  # Model dimension d_model
+            d_state=16,  # SSM state expansion factor
+            d_conv=2,  # Local convolution width
+            expand=1,  # Block expansion factor)
+        )
+        self.a = AttentionLayer(
+                        FullAttention(False, 2, attention_dropout=0.1,
+                                      output_attention=True), 11,1)
     def forward(self, x, attn_mask=None, tau=None, delta=None):
-
         new_x = self.attention(x) + self.attention_r(x.flip(dims=[1])).flip(dims=[1])
-        attn =1
+        attn = 1
 
         x = x + new_x
         y = x = self.norm1(x)
