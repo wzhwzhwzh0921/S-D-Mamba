@@ -66,9 +66,11 @@ We are grateful for the following awesome projects when implementing S-Mamba:
 If you find our work  useful in your research, please consider citing us:
 ```
 @article{wang2024mamba,
-  title={Is Mamba Effective for Time Series Forecasting?},
-  author={Wang, Zihan and Kong, Fanheng and Feng, Shi and Wang, Ming and Zhao, Han and Wang, Daling and Zhang, Yifei},
-  journal={arXiv preprint arXiv:2403.11144},
-  year={2024}
+  title={Is mamba effective for time series forecasting?},
+  author={Wang, Zihan and Kong, Fanheng and Feng, Shi and Wang, Ming and Yang, Xiaocui and Zhao, Han and Wang, Daling and Zhang, Yifei},
+  journal={Neurocomputing},
+  pages={129178},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
