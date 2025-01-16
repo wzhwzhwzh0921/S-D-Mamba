@@ -3,7 +3,7 @@
 <a href='https://arxiv.org/abs/2403.11144'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 ## :loudspeaker: Latest Updates
-
+- **2024 Dec-12** : Accepted by Neurocomputing [[Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231224019490).
 - **2024 Apr-27** : Updated our paper (v3). [[arXiv]](https://arxiv.org/abs/2403.11144v3) [[PDF]](https://arxiv.org/pdf/2403.11144v3). 
 - **2024 Apr-02** : Updated our paper and released the code. You can refer to [[arXiv]](https://arxiv.org/abs/2403.11144) for more details. 
 
