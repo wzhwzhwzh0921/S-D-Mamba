@@ -62,6 +62,18 @@ We are grateful for the following awesome projects when implementing S-Mamba:
 - [iTransformer](https://github.com/thuml/iTransformer)
 - [Mamba](https://github.com/state-spaces/mamba)
 
+
+## 🤝 Join the Collaboration
+We warmly welcome your participation! Whether you have ideas for improvements, feature additions, or bug fixes, feel free to open an issue or submit a pull request.
+
+Contributors:
+
+<p align="center">
+  <a href="https://github.com/wzhwzhwzh0921/S-D-Mamba/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=wzhwzhwzh0921/S-D-Mamba" />
+  </a>
+</p>
+
 ## Citation  
 If you find our work  useful in your research, please consider citing us:
 ```
