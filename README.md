@@ -17,19 +17,19 @@
 - We evaluate the performance of S-Mamba, which not only has low GPU memory required and short time for forecasts but also maintains superior performance compared to the representative and state-of-the-art models. 
 - We conduct extensive experiments to further delve deeper into Mamba's potential in time series forecasting tasks.
 
-## Getting Start :hourglass_flowing_sand:
+## 🌟 Getting Start
 
-### Installation
+### 🛠️ Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Datasets
+### 📦 Datasets
 
 The datasets can be obtained from [here](https://github.com/wzhwzhwzh0921/S-D-Mamba/releases/download/datasets/S-Mamba_datasets.zip).
 
-### Train and evaluate
+### 🚀 Train and evaluate
 
 ```bash
 # ECL
@@ -55,7 +55,7 @@ bash ./scripts/multivariate_forecasting/ETT/S_Mamba_ETTh2.sh
 ```
 
 
-## Acknowledgement :pray:
+## :pray: Acknowledgement 
 
 We are grateful for the following awesome projects when implementing S-Mamba:
 
@@ -74,7 +74,7 @@ Contributors:
   </a>
 </p>
 
-## Citation  
+## 📖 Citation  
 If you find our work  useful in your research, please consider citing us:
 ```
 @article{wang2024mamba,
